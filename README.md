@@ -24,36 +24,36 @@ the tests run correctly.
 
 ![Tweet Tweet Tweet](https://media.giphy.com/media/f4eXhcyemnGwM/giphy.gif)
 
-1. Open the `components/TwitterMessage.js` file.
+<!-- 1. Open the `components/TwitterMessage.js` file. -->
 
-2. This component takes one prop: `maxChars` which is a number — the maximum
+<!-- 2. This component takes one prop: `maxChars` which is a number — the maximum
 amount of characters a message can have. This prop is being passed in from the
-App component with the value `280`.
+App component with the value `280`. -->
 
-3. You'll find an `<input type="text">` in this component. Make this a
+<!-- 3. You'll find an `<input type="text">` in this component. Make this a
 controlled component by adding the attributes to the `<input>` element. Its
 value should be saved in the component's state and should update on _every_
-change to the input.
+change to the input. -->
 
-4. Show the _remaining_ characters in the component. It doesn't matter how you
+<!-- 4. Show the _remaining_ characters in the component. It doesn't matter how you
 render it, as long as the number is correct. No need to guard against input that
-is too long — you can let the counter reach negative values.
+is too long — you can let the counter reach negative values. -->
 
 ## `LoginForm`
 
-1. Open the `components/LoginForm.js` file.
+<!-- 1. Open the `components/LoginForm.js` file. -->
 
-2. This component takes one prop: `handleLogin` which is a function — this function
+<!-- 2. This component takes one prop: `handleLogin` which is a function — this function
 is called when the form is being submitted. By default, this function
 currently just includes `console.log`. That will allow you to see if the form is
-functioning correctly when working in your browser.
+functioning correctly when working in your browser. -->
 
-3. You'll find two inputs in this component: `<input type="text">` and `<input
+<!-- 3. You'll find two inputs in this component: `<input type="text">` and `<input
 type="password">`. Make this a controlled component by adding the necessary
 attributes to these inputs. The input values should be saved to the
-component's state on every change.
+component's state on every change. -->
 
-4. An example of an input would look like:
+<!-- 4. An example of an input would look like:
 
    ```js
    <input
@@ -63,7 +63,7 @@ component's state on every change.
      value={this.state.username}
      onChange={this.handleInputChange}
    />
-   ```
+   ``` -->
 
 5. Remember that you can retrieve the input `name` and `value` of an
 `event.target` from the JS event.
